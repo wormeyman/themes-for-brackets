@@ -7,16 +7,26 @@ Good luck, have fun!
 
     /*Sidebar*/
 
-#sidebar{} /*General sidebar style*/
-#sidebar #working-set-header{} /*"Working files" header*/
-#sidebar #open-files-container{} /*Working files style*/
+#sidebar{
+    background:#1F4661;
+    text-shadow:none;
+} /*General sidebar style*/
+#sidebar #working-set-header{
+    background:#16314a;
+    text-shadow:none;
+} /*"Working files" header*/
+#sidebar #open-files-container{
+    background:#16314a;
+} /*Working files style*/
 #sidebar #open-files-container ul li.selected a{} /*Selected working file*/
 #sidebar #open-files-container ul li.selected a span.extension{} /*Selected working file's extension*/
 #sidebar #open-files-container ul li .file-status-icon{} /*Icon next to a file, dot, X etc.*/
 
 
     /*Project file header*/
-#sidebar #project-files-header{} /*Browser header, path select, search, X etc.*/
+#sidebar #project-files-header{
+    border-top: 4px solid #3E7087;
+} /*Browser header, path select, search, X etc.*/
 #sidebar #project-files-header #project-dropdown-toggle{} /*Path select toggle*/
 #sidebar #project-files-header #project-dropdown-toggle #project-title{} /*Currently selected project title*/
 #sidebar #project-files-header #project-dropdown-toggle .dropdown-arrow{} /*Select toggle arrow - SVG image*/
