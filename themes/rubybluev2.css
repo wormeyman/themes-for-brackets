@@ -18,7 +18,9 @@ Good luck, have fun!
 #sidebar #open-files-container{
     background:#16314a;
 } /*Working files style*/
-#sidebar #open-files-container ul li.selected a{} /*Selected working file*/
+#sidebar #open-files-container ul li.selected a{
+    background:#3E7087;
+} /*Selected working file*/
 #sidebar #open-files-container ul li.selected a span.extension{} /*Selected working file's extension*/
 #sidebar #open-files-container ul li .file-status-icon{} /*Icon next to a file, dot, X etc.*/
 
