@@ -26,8 +26,14 @@ Good luck, have fun!
 #sidebar #project-files-header{
     border-top: 4px solid #3E7087;
 } /*Browser header, path select, search, X etc.*/
-#sidebar #project-files-header #project-dropdown-toggle{} /*Path select toggle*/
-#sidebar #project-files-header #project-dropdown-toggle #project-title{} /*Currently selected project title*/
+#sidebar #project-files-header #project-dropdown-toggle:hover{
+    color:#FFF!important;
+    background:rgba(255,255,255,0.1);
+    border:1px solid rgba(255,255,255,0.3);
+} /*Path select toggle*/
+#sidebar #project-files-header #project-dropdown-toggle #project-title{
+    color:#E0E0E0!important;
+} /*Currently selected project title*/
 #sidebar #project-files-header #project-dropdown-toggle .dropdown-arrow{} /*Select toggle arrow - SVG image*/
 #sidebar #project-files-header #closeAllFolders{} /*Close all icon*/
 #sidebar #project-files-header #search-files-button{} /*Search file icon*/
